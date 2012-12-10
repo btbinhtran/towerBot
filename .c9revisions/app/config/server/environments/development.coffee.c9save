@@ -1,0 +1,6 @@
+{"ts":1355166593521,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# Tower.url = \"http://local.host:3000\""]],"start1":0,"start2":0,"length1":0,"length2":38}]],"length":38}
+{"contributors":[],"silentsave":false,"ts":1355166658553,"patch":[[{"diffs":[[0,"st:3000\""],[1,"\nTower.url = process.env.IP + ':' + process.env.PORT"]],"start1":30,"start2":30,"length1":8,"length2":60}]],"length":90,"saved":false}
+{"ts":1355166725923,"patch":[[{"diffs":[[0,"env.PORT"],[1,"\nconsole.log \"Funny url: #{Tower.url}\""]],"start1":82,"start2":82,"length1":8,"length2":46}]],"length":128,"saved":false}
+{"ts":1355166798621,"patch":[[{"diffs":[[0,"er.url ="],[1," 'http://' +"],[0," process"]],"start1":42,"start2":42,"length1":16,"length2":28}]],"length":140,"saved":false}
+{"ts":1355166955630,"patch":[[{"diffs":[[0," = 'http"],[1,"s"],[0,"://' + p"]],"start1":48,"start2":48,"length1":16,"length2":17}]],"length":141,"saved":false}
+{"ts":1355167977003,"patch":[[{"diffs":[[0,"ORT\n"],[-1,"console.log \"Funny url: #{Tower.url}\""]],"start1":100,"start2":100,"length1":41,"length2":4}]],"length":104,"saved":false}

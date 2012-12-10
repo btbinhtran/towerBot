@@ -1,0 +1,2 @@
+{"ts":1355168897524,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"--require coffee-script ./test/server.coffee\n--reporter spec\n--ui bdd\n--timeout 2000\n"]],"start1":0,"start2":0,"length1":0,"length2":85}]],"length":85}
+{"contributors":[],"silentsave":false,"ts":1355168929139,"patch":[[{"diffs":[[0,"ut 2000\n"],[1,"--globals r,codes"]],"start1":77,"start2":77,"length1":8,"length2":25}]],"length":102,"saved":false}

@@ -1,0 +1,1 @@
+{"ts":1355170068421,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class App.IrcBot extends Tower.Model\n  @field 'channel', type: 'String'\n  @field 'server', type: 'String'\n  @field 'name', type: 'String'\n\n  @timestamps()\n"]],"start1":0,"start2":0,"length1":0,"length2":155}]],"length":155}

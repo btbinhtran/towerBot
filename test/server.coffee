@@ -4,6 +4,7 @@ global.chai     = require 'chai'
 global.assert   = chai.assert
 global.expect   = chai.expect
 global.sinon    = require 'sinon'
+global.sinonChai = require('sinon-chai')
 global.async    = require 'async'
 global.test     = it
 global.cb       = true # some library has a global leak...
@@ -13,12 +14,19 @@ global.get      = _.get
 global.post     = _.post
 global.put      = _.put
 global.destroy  = _.destroy
+global.Faker    = require 'Faker'
 
 global.app      = Tower.Application.instance()
 
 # Initialize the app before everything.
 before (done) ->
   app.initialize done
+  chai.use(sinonChai)
+  
+  Tower.Factory.define 'ircBot', ->
+    channel: Faker.Lorem.words()
+    server: Faker.Lorem.words()
+    name: Faker.Lorem.words()
 
 # Run this before each action
 beforeEach (done) ->
